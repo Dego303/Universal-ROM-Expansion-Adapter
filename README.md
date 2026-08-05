@@ -26,9 +26,8 @@ This repository contains **hardware design files only**. It does not contain fir
 
 ## Repository layout
 
-- `hardware/kicad/` - KiCad project and project-local footprints.
-- `hardware/gerber/` - ready-to-upload fabrication ZIP.
-- `hardware/bom/` - bill of materials.
+- `Universal-ROM-Expansion-Adapter-v0.8-Public-Package.zip` - complete KiCad source, Gerber set, BOM, and validation files.
+- `hardware/bom/BOM.csv` - bill of materials.
 - `docs/JUMPER_GUIDE.md` - configuration matrix and jumper rules.
 - `docs/ASSEMBLY.md` - assembly and first-power-up procedure.
 - `docs/ROM_IMAGE_PREPARATION.md` - safe bank-image preparation for testing.
@@ -43,7 +42,7 @@ See [Jumper Guide](docs/JUMPER_GUIDE.md) before fitting a memory device or conne
 
 ## Fabrication
 
-Upload `hardware/gerber/Universal-ROM-Expansion-Adapter-v0.8-Gerber.zip` to a PCB manufacturer.
+Download `Universal-ROM-Expansion-Adapter-v0.8-Public-Package.zip`, extract it, then ZIP the contents of `hardware/gerber/files/` and upload that fabrication package to a PCB manufacturer.
 
 Suggested prototype settings:
 

@@ -13,19 +13,21 @@ Close exactly one option in each group.
 
 | Host socket | Replacement memory | P1 | P26 | P27 | External inputs |
 |---|---|---|---|---|---|
-| 27C64 | 27C256 | VCC | A13 | A14 | A13, A14 |
+| 27C64 | 27C256 / SST27SF256 | VCC | A13 | A14 | A13, A14 |
 | 27C64 | AT28C256 / 28C256 | A14 | A13 | VCC | A13, A14 |
 | 27C64 | 27C512 / SST27SF512 | A15 | A13 | A14 | A13, A14, A15 |
-| 27C128 | 27C256 | VCC | H26 | A14 | A14 |
+| 27C128 | 27C256 / SST27SF256 | VCC | H26 | A14 | A14 |
 | 27C128 | AT28C256 / 28C256 | A14 | H26 | VCC | A14 |
 | 27C128 | 27C512 / SST27SF512 | A15 | H26 | A14 | A14, A15 |
-| 27C256 | 27C256 | VCC | H26 | H27 | None |
+| 27C256 | 27C256 / SST27SF256 | VCC | H26 | H27 | None |
 | 27C256 | AT28C256 / 28C256 | H27 | H26 | VCC | None |
 | 27C256 | 27C512 / SST27SF512 | A15 | H26 | H27 | A15 |
 
+SST27SF256 uses the standard 27C256 read pinout and therefore uses the same jumper settings as 27C256 in every host-socket configuration above.
+
 ## Why the settings differ
 
-A standard 27C256 uses pin 1 as VPP in read mode and pin 27 as A14. AT28C256-compatible EEPROMs use pin 1 as A14 and pin 27 as active-low write enable. The adapter routes these pins through selectable jumpers so the same PCB can support both families.
+A standard 27C256 and SST27SF256 use pin 1 as VPP in read mode and pin 27 as A14. AT28C256-compatible EEPROMs use pin 1 as A14 and pin 27 as active-low write enable. The adapter routes these pins through selectable jumpers so the same PCB can support both families.
 
 For AT28C256 read-only use in the host, `P27` must select `VCC`, holding write enable inactive.
 

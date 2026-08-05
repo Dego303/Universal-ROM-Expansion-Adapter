@@ -1,0 +1,6 @@
+Designator,Qty,Manufacturer,Part number,Description
+"H1L, H1R",2,Mill-Max,350-10-114-00-006000,"1x14 round male machine-pin strips, 2.54 mm pitch"
+U1,1,Mill-Max,110-93-628-41-001000,28-pin 600 mil precision DIP socket
+J_EXT,1,Mill-Max,350-10-104-00-001000,"1x4 round pin header, 2.54 mm pitch"
+R1-R3,3,Yageo,RC0805FR-0710KL,"10 kOhm, 1%, 0805 pull-down"
+C1,1,Yageo,CC0805KRX7R9BB104,"100 nF, X7R, 0805 decoupling capacitor"

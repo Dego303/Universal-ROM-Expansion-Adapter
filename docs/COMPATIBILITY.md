@@ -9,9 +9,12 @@
 ## Supported replacement memory families
 
 - 27C256
+- SST27SF256 and other devices using the standard 27C256 read pinout
 - AT28C256 and pin-compatible 28C256 devices
 - 27C512
 - SST27SF512 and other devices using the standard 27C512 read pinout
+
+SST27SF256 uses the same adapter jumper settings as 27C256. SST27SF512 uses the same adapter jumper settings as 27C512.
 
 ## Not supported by this PCB
 

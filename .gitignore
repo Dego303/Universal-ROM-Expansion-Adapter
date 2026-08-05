@@ -1,0 +1,12 @@
+# KiCad local/generated files
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+fp-info-cache
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp

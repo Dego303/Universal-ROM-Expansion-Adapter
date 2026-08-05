@@ -15,7 +15,8 @@ This repository contains **hardware design files only**. It does not contain fir
 ## Features
 
 - Supports host sockets wired for 27C64, 27C128, or 27C256.
-- Supports 27C256, AT28C256/compatible 28C256, 27C512, and SST27SF512-class devices with the documented pinout.
+- Supports 27C256, SST27SF256, AT28C256/compatible 28C256, 27C512, and SST27SF512-class devices with the documented pinout.
+- SST27SF256 uses the standard 27C256 read pinout and therefore uses the same jumper settings as 27C256.
 - Handles the important 27C256 versus AT28C256 pinout difference.
 - Exposes A13, A14, A15, and GND on a 1x4 header.
 - 10 kOhm pull-downs provide a stable low-bank boot state for external address inputs.
@@ -62,4 +63,4 @@ Hardware source and documentation are released under the CERN Open Hardware Lice
 
 ## Search terms
 
-27C64, 27C128, 27C256, 27C512, AT28C256, 28C256, SST27SF512, EPROM adapter, EEPROM adapter, ROM expansion, bank switching, bank selection, vintage hardware, synthesizer repair, arcade repair, retro computing, embedded systems.
+27C64, 27C128, 27C256, 27C512, AT28C256, 28C256, SST27SF256, SST27SF512, EPROM adapter, EEPROM adapter, flash ROM adapter, ROM expansion, bank switching, bank selection, vintage hardware, synthesizer repair, arcade repair, retro computing, embedded systems.

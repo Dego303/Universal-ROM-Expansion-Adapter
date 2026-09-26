@@ -2,9 +2,12 @@
 
 Open-hardware adapter for using larger 28-pin 8-bit EPROM, EEPROM, and flash-compatible memory devices in vintage equipment.
 
+> [!CAUTION]
+> **Do not fabricate, assemble, or power hardware revision v0.8.** Real-hardware testing on 2026-09-26 exposed a left/right mirrored DIP-28 pad-numbering/orientation error affecting both the host and memory interfaces. Rotating the memory by 180 degrees does not correct the mapping. The downloadable v0.8 package is retained only as an invalidated prototype record. See [Known Issues](docs/KNOWN_ISSUES.md).
+
 The board passes the common address, data, chip-enable, output-enable, power, and ground pins directly between the host socket and the replacement memory. Pins 1, 26, and 27 are configurable, while A13, A14, and A15 are available on an external header for manual or firmware-controlled bank selection.
 
-> **Prototype status:** visible hardware version **v0.8**. The first batch of 10 PCBs has been ordered. KiCad 10.0.5 DRC passes with 0 violations and 0 unconnected items. Physical fit and real-hardware testing are still pending.
+> **Prototype status:** hardware version **v0.8 is invalidated and unsafe to use**. KiCad 10.0.5 DRC passed with 0 violations and 0 unconnected items, but DRC did not detect the mirrored physical DIP orientation. A corrected revision has not yet been released.
 
 ## Why this exists
 
@@ -33,6 +36,7 @@ This repository contains **hardware design files only**. It does not contain fir
 - `docs/ASSEMBLY.md` - assembly and first-power-up procedure.
 - `docs/ROM_IMAGE_PREPARATION.md` - safe bank-image preparation for testing.
 - `docs/COMPATIBILITY.md` - supported host and memory families.
+- `docs/KNOWN_ISSUES.md` - confirmed hardware defects and disposition of affected revisions.
 - `validation/` - DRC, electrical-equivalence, and privacy audits.
 
 ## Important electrical rule
@@ -43,7 +47,9 @@ See [Jumper Guide](docs/JUMPER_GUIDE.md) before fitting a memory device or conne
 
 ## Fabrication
 
-Download `Universal-ROM-Expansion-Adapter-v0.8-Public-Package.zip`, extract it, then ZIP the contents of `hardware/gerber/files/` and upload that fabrication package to a PCB manufacturer.
+**Do not fabricate the included v0.8 design.** The package is retained for traceability only and contains the confirmed mirrored DIP-28 footprint error described in [Known Issues](docs/KNOWN_ISSUES.md).
+
+The following settings are historical prototype settings, not a fabrication recommendation for v0.8:
 
 Suggested prototype settings:
 

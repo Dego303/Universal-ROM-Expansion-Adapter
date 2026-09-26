@@ -1,5 +1,8 @@
 # Assembly and Test Guide
 
+> [!CAUTION]
+> **Stop: this guide must not be used with PCB revision v0.8.** Hardware testing confirmed mirrored left/right DIP-28 pad numbering at the host and memory interfaces. Neither memory orientation is valid, and rotating the device 180 degrees does not fix the mapping. Do not install or power v0.8 in any host. See [Known Issues](KNOWN_ISSUES.md).
+
 ## Assembly order
 
 1. Inspect the bare PCB for damaged pads, blocked holes, or solder-mask defects.
@@ -29,4 +32,4 @@
 
 ## Prototype warning
 
-The first hardware batch is intended to validate pin fit, socket clearance, solderability, and real-hardware operation. Do not force machine pins into a vintage socket. Stop if insertion requires excessive pressure.
+Hardware revision v0.8 failed its first real-host test and is invalidated. The host recovered when its original ROMs were restored, but an incorrectly mapped replacement memory may be damaged. Do not perform further powered tests with v0.8.

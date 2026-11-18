@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "URA")(type "KiCad")(uri "${KIPRJMOD}/URA.pretty")(options "")(descr "Universal ROM Expansion Adapter exact board-synced footprints"))
+)

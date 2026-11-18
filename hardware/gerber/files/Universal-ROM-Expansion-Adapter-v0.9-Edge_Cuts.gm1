@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.8*%
+%TF.CreationDate,2026-11-18T15:43:46+01:00*%
+%TF.ProjectId,Universal-ROM-Expansion-Adapter-v0.9,556e6976-6572-4736-916c-2d524f4d2d45,0.9*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.8) date 2026-11-18 15:43:46*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X0Y0D02*
+X24000000Y0D01*
+X24000000Y-41000000D01*
+X0Y-41000000D01*
+X0Y0D01*
+M02*

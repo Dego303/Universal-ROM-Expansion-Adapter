@@ -1,0 +1,241 @@
+(footprint "MillMax_350-10-114-00-006000_x2" (version 20240108) (generator pcbnew) (layer "F.Cu")
+    (attr through_hole)
+    (fp_text reference "REF**"
+      (at 20.890 39.650 0)
+      (layer "F.Fab") hide
+      (effects (font (size 0.750 0.750) (thickness 0.120)) (justify mirror))
+      )
+    (fp_text value "350-10-114 x2"
+      (at 20.890 1.150 0)
+      (layer "F.Fab") hide
+      (effects (font (size 0.600 0.600) (thickness 0.120)) (justify mirror))
+      )
+    (fp_line (start 21.900 3.000) (end 21.900 38.000)
+      (stroke (width 0.150) (type default)) (layer "B.SilkS") )
+    (fp_line (start 4.640 3.000) (end 4.640 38.000)
+      (stroke (width 0.150) (type default)) (layer "B.SilkS") )
+    (pad "1" thru_hole rect
+      (at 20.890 37.010)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "1") (pintype "passive")
+      )
+    (pad "2" thru_hole circle
+      (at 20.890 34.470)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "2") (pintype "passive")
+      )
+    (pad "3" thru_hole circle
+      (at 20.890 31.930)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "3") (pintype "passive")
+      )
+    (pad "4" thru_hole circle
+      (at 20.890 29.390)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "4") (pintype "passive")
+      )
+    (pad "5" thru_hole circle
+      (at 20.890 26.850)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "5") (pintype "passive")
+      )
+    (pad "6" thru_hole circle
+      (at 20.890 24.310)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "6") (pintype "passive")
+      )
+    (pad "7" thru_hole circle
+      (at 20.890 21.770)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "7") (pintype "passive")
+      )
+    (pad "8" thru_hole circle
+      (at 20.890 19.230)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "8") (pintype "passive")
+      )
+    (pad "9" thru_hole circle
+      (at 20.890 16.690)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "9") (pintype "passive")
+      )
+    (pad "10" thru_hole circle
+      (at 20.890 14.150)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "10") (pintype "passive")
+      )
+    (pad "11" thru_hole circle
+      (at 20.890 11.610)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "11") (pintype "passive")
+      )
+    (pad "12" thru_hole circle
+      (at 20.890 9.070)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "12") (pintype "passive")
+      )
+    (pad "13" thru_hole circle
+      (at 20.890 6.530)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "13") (pintype "passive")
+      )
+    (pad "14" thru_hole circle
+      (at 20.890 3.990)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "14") (pintype "passive")
+      )
+    (pad "15" thru_hole circle
+      (at 5.650 3.990)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "15") (pintype "passive")
+      )
+    (pad "16" thru_hole circle
+      (at 5.650 6.530)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "16") (pintype "passive")
+      )
+    (pad "17" thru_hole circle
+      (at 5.650 9.070)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "17") (pintype "passive")
+      )
+    (pad "18" thru_hole circle
+      (at 5.650 11.610)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "18") (pintype "passive")
+      )
+    (pad "19" thru_hole circle
+      (at 5.650 14.150)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "19") (pintype "passive")
+      )
+    (pad "20" thru_hole circle
+      (at 5.650 16.690)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "20") (pintype "passive")
+      )
+    (pad "21" thru_hole circle
+      (at 5.650 19.230)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "21") (pintype "passive")
+      )
+    (pad "22" thru_hole circle
+      (at 5.650 21.770)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "22") (pintype "passive")
+      )
+    (pad "23" thru_hole circle
+      (at 5.650 24.310)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "23") (pintype "passive")
+      )
+    (pad "24" thru_hole circle
+      (at 5.650 26.850)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "24") (pintype "passive")
+      )
+    (pad "25" thru_hole circle
+      (at 5.650 29.390)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "25") (pintype "passive")
+      )
+    (pad "26" thru_hole circle
+      (at 5.650 31.930)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "26") (pintype "passive")
+      )
+    (pad "27" thru_hole circle
+      (at 5.650 34.470)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "27") (pintype "passive")
+      )
+    (pad "28" thru_hole circle
+      (at 5.650 37.010)
+      (size 1.300 1.300)
+      (drill 0.600)
+      (layers "*.Cu" "*.Mask")
+
+      (pinfunction "28") (pintype "passive")
+      )
+  )

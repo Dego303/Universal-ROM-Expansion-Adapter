@@ -1,0 +1,36 @@
+(footprint "C_0805_Hand" (version 20240108) (generator pcbnew) (layer "F.Cu") (attr smd)
+    (fp_text reference "REF**"
+      (at 0.000 0.000 90)
+      (layer "F.Fab") hide
+      (effects (font (size 0.450 0.450) (thickness 0.120)))
+      )
+    (fp_text value "100n"
+      (at 0.000 2.000 0)
+      (layer "F.Fab") hide
+      (effects (font (size 0.420 0.420) (thickness 0.120)))
+      )
+    (pad "1" smd roundrect
+      (at 0.000 -0.950)
+      (size 1.500 1.150)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (roundrect_rratio 0.180)
+
+      (pinfunction "1") (pintype "passive")
+      )
+    (pad "2" smd roundrect
+      (at 0.000 0.950)
+      (size 1.500 1.150)
+      (layers "F.Cu" "F.Paste" "F.Mask")
+      (roundrect_rratio 0.180)
+
+      (pinfunction "2") (pintype "passive")
+      )
+    (fp_line (start -0.950 1.750) (end 0.950 1.750)
+      (stroke (width 0.120) (type default)) (layer "F.SilkS") )
+    (fp_line (start 0.950 1.750) (end 0.950 -1.750)
+      (stroke (width 0.120) (type default)) (layer "F.SilkS") )
+    (fp_line (start 0.950 -1.750) (end -0.950 -1.750)
+      (stroke (width 0.120) (type default)) (layer "F.SilkS") )
+    (fp_line (start -0.950 -1.750) (end -0.950 1.750)
+      (stroke (width 0.120) (type default)) (layer "F.SilkS") )
+  )

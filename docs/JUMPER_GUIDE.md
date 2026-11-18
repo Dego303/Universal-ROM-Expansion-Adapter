@@ -25,6 +25,16 @@ Close exactly one option in each group.
 
 SST27SF256 uses the standard 27C256 read pinout and therefore uses the same jumper settings as 27C256 in every host-socket configuration above.
 
+## Board jumper references
+
+| Group | Options by silkscreen label and KiCad reference |
+|---|---|
+| P1 | VCC (JP1A), H27 (JP1B), A14 (JP1C), A15 (JP1D) |
+| P26 | H26 (JP26A), A13 (JP26B) |
+| P27 | H27 (JP27A), A14 (JP27B), VCC (JP27C) |
+
+Read the silkscreen from the bottom side. H1 pin 1 is isolated. H26 and H27 supply address signals only in the host configurations listed in the matrix.
+
 ## Why the settings differ
 
 A standard 27C256 and SST27SF256 use pin 1 as VPP in read mode and pin 27 as A14. AT28C256-compatible EEPROMs use pin 1 as A14 and pin 27 as active-low write enable. The adapter routes these pins through selectable jumpers so the same PCB can support both families.
